@@ -3,7 +3,7 @@
 # 自定义风格的iOS时间选择器，美化页面使你的app更加高端大气上档次！ 
 ----------------------
 ## Show
-![](https://github.com/guodongZhao/ZGDUITableViewCellReloadAnimation/raw/master/testShow.gif)
+![](https://github.com/guodongZhao/ZGDDatePicker-Tool/raw/master/testShow.gif)
 ## `Use`
 ### 使用的正确姿势-- :
   导入头文件 `ZGDDatePickerView.h`
