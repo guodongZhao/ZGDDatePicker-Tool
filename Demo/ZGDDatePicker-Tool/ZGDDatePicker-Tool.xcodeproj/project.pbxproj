@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AC4FDF91D6EEE1B008C5983 /* 风景荷花.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4FDF81D6EEE1B008C5983 /* 风景荷花.png */; };
+		9AC4FDFB1D6EEE35008C5983 /* 中国结.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4FDFA1D6EEE35008C5983 /* 中国结.png */; };
+		9AC4FDFD1D6EEE46008C5983 /* 时间.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4FDFC1D6EEE46008C5983 /* 时间.png */; };
+		9AC4FE011D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4FDFF1D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.m */; };
+		9AC4FE021D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4FE001D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.xib */; };
+		9AC650FB1D6DAA12009BD01C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC650FA1D6DAA12009BD01C /* main.m */; };
+		9AC650FE1D6DAA12009BD01C /* ZGDDemo_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC650FD1D6DAA12009BD01C /* ZGDDemo_AppDelegate.m */; };
+		9AC651061D6DAA12009BD01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC651051D6DAA12009BD01C /* Assets.xcassets */; };
+		9AC651091D6DAA12009BD01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC651071D6DAA12009BD01C /* LaunchScreen.storyboard */; };
+		9AC651141D6DAA12009BD01C /* ZGDDatePicker_ToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC651131D6DAA12009BD01C /* ZGDDatePicker_ToolTests.m */; };
+		9AC6511F1D6DAA12009BD01C /* ZGDDatePicker_ToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC6511E1D6DAA12009BD01C /* ZGDDatePicker_ToolUITests.m */; };
+		9AC651311D6DADAB009BD01C /* ZGDDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC651301D6DADAB009BD01C /* ZGDDatePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AC651101D6DAA12009BD01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC650EE1D6DAA12009BD01C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC650F51D6DAA12009BD01C;
+			remoteInfo = "ZGDDatePicker-Tool";
+		};
+		9AC6511B1D6DAA12009BD01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AC650EE1D6DAA12009BD01C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AC650F51D6DAA12009BD01C;
+			remoteInfo = "ZGDDatePicker-Tool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AC4FDF81D6EEE1B008C5983 /* 风景荷花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "风景荷花.png"; sourceTree = "<group>"; };
+		9AC4FDFA1D6EEE35008C5983 /* 中国结.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中国结.png"; sourceTree = "<group>"; };
+		9AC4FDFC1D6EEE46008C5983 /* 时间.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "时间.png"; sourceTree = "<group>"; };
+		9AC4FDFE1D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGDDatePickerDemo_ViewController.h; sourceTree = "<group>"; };
+		9AC4FDFF1D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGDDatePickerDemo_ViewController.m; sourceTree = "<group>"; };
+		9AC4FE001D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZGDDatePickerDemo_ViewController.xib; sourceTree = "<group>"; };
+		9AC650F61D6DAA12009BD01C /* ZGDDatePicker-Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZGDDatePicker-Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC650FA1D6DAA12009BD01C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AC650FC1D6DAA12009BD01C /* ZGDDemo_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGDDemo_AppDelegate.h; sourceTree = "<group>"; };
+		9AC650FD1D6DAA12009BD01C /* ZGDDemo_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGDDemo_AppDelegate.m; sourceTree = "<group>"; };
+		9AC651051D6DAA12009BD01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC651081D6DAA12009BD01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC6510A1D6DAA12009BD01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC6510F1D6DAA12009BD01C /* ZGDDatePicker-ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZGDDatePicker-ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC651131D6DAA12009BD01C /* ZGDDatePicker_ToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGDDatePicker_ToolTests.m; sourceTree = "<group>"; };
+		9AC651151D6DAA12009BD01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC6511A1D6DAA12009BD01C /* ZGDDatePicker-ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZGDDatePicker-ToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC6511E1D6DAA12009BD01C /* ZGDDatePicker_ToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGDDatePicker_ToolUITests.m; sourceTree = "<group>"; };
+		9AC651201D6DAA12009BD01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC6512F1D6DADAB009BD01C /* ZGDDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGDDatePickerView.h; sourceTree = "<group>"; };
+		9AC651301D6DADAB009BD01C /* ZGDDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGDDatePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC650F31D6DAA12009BD01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC6510C1D6DAA12009BD01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC651171D6DAA12009BD01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AC650ED1D6DAA12009BD01C = {
+			isa = PBXGroup;
+			children = (
+				9AC650F81D6DAA12009BD01C /* ZGDDatePicker-Tool */,
+				9AC651121D6DAA12009BD01C /* ZGDDatePicker-ToolTests */,
+				9AC6511D1D6DAA12009BD01C /* ZGDDatePicker-ToolUITests */,
+				9AC650F71D6DAA12009BD01C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC650F71D6DAA12009BD01C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC650F61D6DAA12009BD01C /* ZGDDatePicker-Tool.app */,
+				9AC6510F1D6DAA12009BD01C /* ZGDDatePicker-ToolTests.xctest */,
+				9AC6511A1D6DAA12009BD01C /* ZGDDatePicker-ToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC650F81D6DAA12009BD01C /* ZGDDatePicker-Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9AC4FDF81D6EEE1B008C5983 /* 风景荷花.png */,
+				9AC4FDFC1D6EEE46008C5983 /* 时间.png */,
+				9AC4FDFA1D6EEE35008C5983 /* 中国结.png */,
+				9AC650FC1D6DAA12009BD01C /* ZGDDemo_AppDelegate.h */,
+				9AC650FD1D6DAA12009BD01C /* ZGDDemo_AppDelegate.m */,
+				9AC4FDFE1D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.h */,
+				9AC4FDFF1D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.m */,
+				9AC4FE001D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.xib */,
+				9AC6512F1D6DADAB009BD01C /* ZGDDatePickerView.h */,
+				9AC651301D6DADAB009BD01C /* ZGDDatePickerView.m */,
+				9AC651051D6DAA12009BD01C /* Assets.xcassets */,
+				9AC651071D6DAA12009BD01C /* LaunchScreen.storyboard */,
+				9AC6510A1D6DAA12009BD01C /* Info.plist */,
+				9AC650F91D6DAA12009BD01C /* Supporting Files */,
+			);
+			path = "ZGDDatePicker-Tool";
+			sourceTree = "<group>";
+		};
+		9AC650F91D6DAA12009BD01C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AC650FA1D6DAA12009BD01C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AC651121D6DAA12009BD01C /* ZGDDatePicker-ToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC651131D6DAA12009BD01C /* ZGDDatePicker_ToolTests.m */,
+				9AC651151D6DAA12009BD01C /* Info.plist */,
+			);
+			path = "ZGDDatePicker-ToolTests";
+			sourceTree = "<group>";
+		};
+		9AC6511D1D6DAA12009BD01C /* ZGDDatePicker-ToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AC6511E1D6DAA12009BD01C /* ZGDDatePicker_ToolUITests.m */,
+				9AC651201D6DAA12009BD01C /* Info.plist */,
+			);
+			path = "ZGDDatePicker-ToolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC650F51D6DAA12009BD01C /* ZGDDatePicker-Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC651231D6DAA12009BD01C /* Build configuration list for PBXNativeTarget "ZGDDatePicker-Tool" */;
+			buildPhases = (
+				9AC650F21D6DAA12009BD01C /* Sources */,
+				9AC650F31D6DAA12009BD01C /* Frameworks */,
+				9AC650F41D6DAA12009BD01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZGDDatePicker-Tool";
+			productName = "ZGDDatePicker-Tool";
+			productReference = 9AC650F61D6DAA12009BD01C /* ZGDDatePicker-Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AC6510E1D6DAA12009BD01C /* ZGDDatePicker-ToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC651261D6DAA12009BD01C /* Build configuration list for PBXNativeTarget "ZGDDatePicker-ToolTests" */;
+			buildPhases = (
+				9AC6510B1D6DAA12009BD01C /* Sources */,
+				9AC6510C1D6DAA12009BD01C /* Frameworks */,
+				9AC6510D1D6DAA12009BD01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC651111D6DAA12009BD01C /* PBXTargetDependency */,
+			);
+			name = "ZGDDatePicker-ToolTests";
+			productName = "ZGDDatePicker-ToolTests";
+			productReference = 9AC6510F1D6DAA12009BD01C /* ZGDDatePicker-ToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AC651191D6DAA12009BD01C /* ZGDDatePicker-ToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC651291D6DAA12009BD01C /* Build configuration list for PBXNativeTarget "ZGDDatePicker-ToolUITests" */;
+			buildPhases = (
+				9AC651161D6DAA12009BD01C /* Sources */,
+				9AC651171D6DAA12009BD01C /* Frameworks */,
+				9AC651181D6DAA12009BD01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC6511C1D6DAA12009BD01C /* PBXTargetDependency */,
+			);
+			name = "ZGDDatePicker-ToolUITests";
+			productName = "ZGDDatePicker-ToolUITests";
+			productReference = 9AC6511A1D6DAA12009BD01C /* ZGDDatePicker-ToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC650EE1D6DAA12009BD01C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "赵国栋";
+				TargetAttributes = {
+					9AC650F51D6DAA12009BD01C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2X3SH8S946;
+					};
+					9AC6510E1D6DAA12009BD01C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2X3SH8S946;
+						TestTargetID = 9AC650F51D6DAA12009BD01C;
+					};
+					9AC651191D6DAA12009BD01C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2X3SH8S946;
+						TestTargetID = 9AC650F51D6DAA12009BD01C;
+					};
+				};
+			};
+			buildConfigurationList = 9AC650F11D6DAA12009BD01C /* Build configuration list for PBXProject "ZGDDatePicker-Tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC650ED1D6DAA12009BD01C;
+			productRefGroup = 9AC650F71D6DAA12009BD01C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC650F51D6DAA12009BD01C /* ZGDDatePicker-Tool */,
+				9AC6510E1D6DAA12009BD01C /* ZGDDatePicker-ToolTests */,
+				9AC651191D6DAA12009BD01C /* ZGDDatePicker-ToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC650F41D6DAA12009BD01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC4FDF91D6EEE1B008C5983 /* 风景荷花.png in Resources */,
+				9AC4FDFD1D6EEE46008C5983 /* 时间.png in Resources */,
+				9AC4FDFB1D6EEE35008C5983 /* 中国结.png in Resources */,
+				9AC651091D6DAA12009BD01C /* LaunchScreen.storyboard in Resources */,
+				9AC651061D6DAA12009BD01C /* Assets.xcassets in Resources */,
+				9AC4FE021D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC6510D1D6DAA12009BD01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC651181D6DAA12009BD01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC650F21D6DAA12009BD01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC650FE1D6DAA12009BD01C /* ZGDDemo_AppDelegate.m in Sources */,
+				9AC4FE011D6EEEEB008C5983 /* ZGDDatePickerDemo_ViewController.m in Sources */,
+				9AC651311D6DADAB009BD01C /* ZGDDatePickerView.m in Sources */,
+				9AC650FB1D6DAA12009BD01C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC6510B1D6DAA12009BD01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC651141D6DAA12009BD01C /* ZGDDatePicker_ToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AC651161D6DAA12009BD01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC6511F1D6DAA12009BD01C /* ZGDDatePicker_ToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AC651111D6DAA12009BD01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC650F51D6DAA12009BD01C /* ZGDDatePicker-Tool */;
+			targetProxy = 9AC651101D6DAA12009BD01C /* PBXContainerItemProxy */;
+		};
+		9AC6511C1D6DAA12009BD01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AC650F51D6DAA12009BD01C /* ZGDDatePicker-Tool */;
+			targetProxy = 9AC6511B1D6DAA12009BD01C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AC651071D6DAA12009BD01C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AC651081D6DAA12009BD01C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AC651211D6DAA12009BD01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AC651221D6DAA12009BD01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC651241D6DAA12009BD01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZGDDatePicker-Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.ZGDDatePicker-Tool.01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AC651251D6DAA12009BD01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZGDDatePicker-Tool/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.ZGDDatePicker-Tool.01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AC651271D6DAA12009BD01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZGDDatePicker-ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.ZGDDatePicker-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGDDatePicker-Tool.app/ZGDDatePicker-Tool";
+			};
+			name = Debug;
+		};
+		9AC651281D6DAA12009BD01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZGDDatePicker-ToolTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.ZGDDatePicker-ToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGDDatePicker-Tool.app/ZGDDatePicker-Tool";
+			};
+			name = Release;
+		};
+		9AC6512A1D6DAA12009BD01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZGDDatePicker-ToolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.ZGDDatePicker-ToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZGDDatePicker-Tool";
+			};
+			name = Debug;
+		};
+		9AC6512B1D6DAA12009BD01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZGDDatePicker-ToolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZGD.ZGDDatePicker-ToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZGDDatePicker-Tool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC650F11D6DAA12009BD01C /* Build configuration list for PBXProject "ZGDDatePicker-Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC651211D6DAA12009BD01C /* Debug */,
+				9AC651221D6DAA12009BD01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC651231D6DAA12009BD01C /* Build configuration list for PBXNativeTarget "ZGDDatePicker-Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC651241D6DAA12009BD01C /* Debug */,
+				9AC651251D6DAA12009BD01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC651261D6DAA12009BD01C /* Build configuration list for PBXNativeTarget "ZGDDatePicker-ToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC651271D6DAA12009BD01C /* Debug */,
+				9AC651281D6DAA12009BD01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC651291D6DAA12009BD01C /* Build configuration list for PBXNativeTarget "ZGDDatePicker-ToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC6512A1D6DAA12009BD01C /* Debug */,
+				9AC6512B1D6DAA12009BD01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC650EE1D6DAA12009BD01C /* Project object */;
+}
